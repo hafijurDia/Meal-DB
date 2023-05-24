@@ -14,7 +14,7 @@
   <header>
     <nav class="navbar bg-body-tertiary">
       <div class="container">
-        <a href="#" class="navbar-brand"><img src="images/Tasty_HUT.png" alt="Logo"
+        <a href="index.html" class="navbar-brand"><img src="images/Tasty_HUT.png" alt="Logo"
             class="d-inline-block align-text-top"></a>
         <button type="button" class="btn btn-warning fw-semibold">Sign Up</button>
         </form>
@@ -34,8 +34,8 @@
             </p>
             <div class="search">
               <i class="fa fa-search"></i>
-              <input type="text" class="form-control" placeholder="Have a question? Ask Now">
-              <button class="btn btn-warning fw-semibold">Search</button>
+              <input type="text" id="search-input" class="form-control" placeholder="Search your meal">
+              <button id="search-btn" class="btn btn-warning fw-semibold">Search</button>
             </div>
           </div>
         </div>
@@ -53,24 +53,24 @@
           </div>
         </div>
       </section>
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div id="modal-body" class="modal-body">
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
+      <!-- Modal -->
+<div class="modal fade" id="mealModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="modal-body" class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
       </div>
   </main>
  <!-- Footer -->
