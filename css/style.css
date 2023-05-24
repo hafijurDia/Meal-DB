@@ -1,0 +1,67 @@
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/banner_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+    .search input{
+     height: 45px;
+     text-indent: 25px;
+
+    }
+    .search input:focus{
+     box-shadow: none;
+
+    }
+    .search .fa-search{
+
+     position: absolute;
+     top: 20px;
+     left: 16px;
+
+    }
+    .search button{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     height: 45px;
+     width: 100px;
+
+    }
+    .fsc-1{
+        font-size: 4rem;
+    }
+
+    /* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+/* Medium devices (desktops, 992px and up) */
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1440px) {
+    .fsc-1{
+        font-size: 3.5rem;
+    }
+  }
+
+  /* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .fsc-1{
+        font-size: 2rem;
+    }
+    .bg-overlay {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+  }
